@@ -17,7 +17,14 @@ public class ButtonPanel extends JButton implements ActionListener {
 	ImageIcon help = new ImageIcon("help.png");
 	JButton btnHelp = new JButton("HELP");
 	private BufferedImage icon;
-
+	
+	public void Set(JButton btn,int x, int y){
+		btn.setLocation(x, y);
+		btn.setVisible(true);
+		add(btn);
+		btn.addActionListener(this);
+	}
+	
 	public ButtonPanel() {
 
 		System.out.println("a");
@@ -32,15 +39,8 @@ public class ButtonPanel extends JButton implements ActionListener {
 		}
 
 		// setLocation(500, 200);
-		btnPlay.setLocation(500, 200);
-		btnHelp.setLocation(300, 300);
-		btnHelp.setVisible(true);
-		btnPlay.setVisible(true);
-		add(btnHelp);
-		add(btnPlay);
-		// btnHelp.setSize(100, 100);
-		btnHelp.addActionListener(this);
-		btnPlay.addActionListener(this);
+		Set(btnPlay);
+		Set(btnHelp);
 		setVisible(true);
 
 	}
