@@ -66,17 +66,6 @@ public class MainMenuPanel extends JPanel {
 		play.setForeground(Color.BLACK);
 		play.addMouseListener(new MouseListener() {
 
-			@Override
-			public void mouseReleased(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
 
 			@Override
 			public void mouseExited(MouseEvent arg0) {
@@ -104,17 +93,7 @@ public class MainMenuPanel extends JPanel {
 		howToPlay.setForeground(Color.BLACK);
 		howToPlay.addMouseListener(new MouseListener() {
 
-			@Override
-			public void mouseReleased(MouseEvent arg0) {
-				// TODO Auto-generated method stub
 
-			}
-
-			@Override
-			public void mousePressed(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
 
 			@Override
 			public void mouseExited(MouseEvent arg0) {
@@ -141,16 +120,7 @@ public class MainMenuPanel extends JPanel {
 		exit.setFont(new Font("Orange Kid", Font.BOLD, 36));
 		exit.setForeground(Color.BLACK);
 		exit.addMouseListener(new MouseListener() {
-			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
 
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
 
 			@Override
 			public void mouseExited(MouseEvent e) {
